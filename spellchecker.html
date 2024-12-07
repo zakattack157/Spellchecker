@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spellchecker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            font-size: 18px;
+            padding: 8px;
+            width: 300px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        li {
+            font-size: 18px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>By: Zakery Hickey</h1>
+    <h1>Spellchecker</h1>
+    <input type="text" id="wordInput" placeholder="Type a word..." />
+    <ul id="suggestions"></ul>
+
+    <script src="spellcheck.js"></script>
+</body>
+</html>
